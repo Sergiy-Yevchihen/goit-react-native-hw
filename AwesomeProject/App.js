@@ -11,7 +11,7 @@ import React, { useState } from "react";
 import RegistrationScreen from "./Screens/RegistrationScreen/RegistrationScreen";
 import LoginScreen from "./Screens/LoginScreen/LoginScreen";
 
-const backImage = require("./images/");
+const backImage = require("./images/add.svg");
 
 export default function App() {
   const [activeScreen, setActiveScreen] = useState(0);
